@@ -1,0 +1,14 @@
+name: Generate ascii with script
+on: push
+jobs: 
+    testing_with_script:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout to curr branch
+              uses: actions/checkout@v4
+            
+            - name: Generate with Script
+              run: |
+                sudo chmod +x ./ascii.sh
+                ./ascii.sh
+            
