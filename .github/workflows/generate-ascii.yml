@@ -1,4 +1,4 @@
-name: My First Workflow
+name: Ascii Workflow
 on: push
 jobs:
   first_job:
