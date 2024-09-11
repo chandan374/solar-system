@@ -12,7 +12,7 @@ jobs:
           echo "my first github actions"
           ls -ltra
           cat README.md
-          apt-get update && apt-get install -y cowsay
+          sudo apt-get install -y cowsay
 
       - name: Lists Files
         run: ls
