@@ -2,6 +2,6 @@
 
 ls -lah
 sudo apt-get install -y cowsay
-sudo cowsay -f dragon "run for cover, or get killed" >> dragon.txt
+cowsay -f dragon "Run for cover, i am dragon" >> dragon.txt
 cat dragon.txt
 ls -lah
